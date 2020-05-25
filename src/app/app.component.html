@@ -1,0 +1,237 @@
+<div class="bg-dark ">
+<nav class="container Nav " > 
+  <div class="row">
+    <div class="col-6">
+            this place is for logo
+  </div>
+    <div class="col-5">      
+      <div class="input-group mb-3 input-group-lg">
+        <div class="dropdown">
+          <button type="button" class="btn btn-lg btn-light dropdown-toggle" data-toggle="dropdown">
+            All Filters
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Addresses</a>
+            <a class="dropdown-item" href="#">Tokens</a>
+            <a class="dropdown-item" href="#">Name Tag</a>
+            <a class="dropdown-item" href="#">Tokens</a>
+            <a class="dropdown-item" href="#">Websites</a>
+          </div>
+        </div>
+        <input type="text" class="form-control"   placeholder="Search by Address/ Txn Hass/ Block/ Token/ Ens ">
+                <div class="input-group-prepend">
+          <span class="input-group-text" (click)="search()"> Search</span>
+        </div>
+      </div>
+     </div>
+  </div>
+  <div class="row">
+    <div class="col-4">
+            this place is for logo
+  </div>
+  <div class="col-2">
+    this place is for logo
+</div>
+    <div class="col-6 " >      
+
+          <button class="btn-lg btn-light" data-toggle="dropdown">
+          Home
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Link 1</a>
+          <a class="dropdown-item" href="#">Link 2</a>
+          <a class="dropdown-item" href="#">Link 3</a>
+        </div>
+        <button  class="btn-lg btn-light dropdown-toggle" data-toggle="dropdown">
+          BlockChain
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Link 1</a>
+          <a class="dropdown-item" href="#">Link 2</a>
+          <a class="dropdown-item" href="#">Link 3</a>
+        </div>   
+        <button class="btn-lg btn-light" data-toggle="dropdown">
+          Token
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Link 1</a>
+          <a class="dropdown-item" href="#">Link 2</a>
+          <a class="dropdown-item" href="#">Link 3</a>
+        </div>
+        <button  class="btn-lg btn-light dropdown-toggle" data-toggle="dropdown">
+          Resource
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Link 1</a>
+          <a class="dropdown-item" href="#">Link 2</a>
+          <a class="dropdown-item" href="#">Link 3</a>
+        </div>     
+        <button  class="btn-lg btn-light dropdown-toggle" data-toggle="dropdown">
+          More
+        </button>
+     </div>
+  </div>
+</nav>
+</div>
+
+
+<div class="container">
+    <br>
+    <div >
+      <div class="row">
+        <div class="col-3">      
+            Token Zilliqa<br>
+          <h4> <span class="badge badge-secondary">Light</span><span class="badge badge badge-secondary">Light</span></h4>
+        </div>
+        <div class="col-6">      
+          
+      </div>
+        <div class="col-3">
+              <button type="button" class="btn-lg btn-primary ">Buy</button>
+              <button type="button" class="btn-lg btn-primary">Exchange</button>
+              <button type="button" class="btn-lg btn-primary">Crypto Credit</button>
+        </div>
+      </div>
+      <hr>
+      💡 Feature Tip: Browse all your favourite Dapps here on Etherscan! 😍 
+      <p></p>
+  <div>
+      <div class="row" >
+        <div class="card col-6">
+
+          <div class="card-header d-flex justify-content-between align-items-center">
+          <h2 class="card-header-title">Overview <span class="text-secondary small">[ERC-20]</span> </h2>
+          </div>
+          <div class="card-body">
+            <div class="row" >
+              <div class="col-6">Total Supply:</div>
+              <div class="col-6">1</div>
+              </div>
+            <hr>
+              <div class="row" >
+              <div class="col-6">Balance:</div>
+              <div class="col-6">{{finalbalance}}</div>
+              </div>
+            <hr>
+              <div class="row" >
+              <div class="col-6">Transfers:</div>
+              <div class="col-6">2423</div>
+              </div>
+          </div>
+      </div>
+      <div class="card col-6">
+
+        <div class="card-header ">
+        <h2 >Overview <span class="text-secondary small">[ERC-20]</span> </h2>
+        </div>
+        <div class="card-body">
+          <div class="row" >
+            <div class="col-6">Total Supply:</div>
+            <div class="col-6">1</div>
+            </div>
+          <hr>
+            <div class="row" >
+            <div class="col-6">Balance:</div>
+            <div class="col-6">{{finalbalance}}</div>
+            </div>
+          <hr>
+            <div class="row" >
+            <div class="col-6">Transfers:</div>
+            <div class="col-6">2423</div>
+            </div>
+        </div>
+    </div>
+  </div>
+<br>
+  <div >
+    <div class='card'>
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#home"><b>Transfer</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#menu1">Holder</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#menu2">info</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " data-toggle="tab" href="#home1">Exchange</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#menu11">DEX Trade</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#menu21">Read Contact</a>
+      </li>
+    </ul>
+  
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div id="home" class="container tab-pane active"><br>
+      
+        <hr>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let task of tasks">
+              <td>{{task.type}}</td>
+              <td>{{task.value}}</td>
+              <td>{{task.vname}}</td>
+            </tr>
+            <tr>
+          </tbody>
+        </table>
+       </div>
+      <div id="menu1" class="container tab-pane active"><br>
+        <hr>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let task of tasks">
+              <td>{{task.type}}</td>
+              <td>{{task.value}}</td>
+              <td>{{task.vname}}</td>
+            </tr>
+            <tr>
+          </tbody>
+        </table>
+        </div>
+      <div id="menu2" class="container tab-pane fade"><br>
+        <h3>Menu 2</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+      </div>
+      <div id="home1" class="container tab-pane"><br>
+        <h3>HOME1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div id="menu11" class="container tab-pane fade"><br>
+        <h3>Menu 11</h3>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <div id="menu21" class="container tab-pane fade"><br>
+        <h3>Menu 21</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+<!-- <router-outlet></router-outlet> -->
